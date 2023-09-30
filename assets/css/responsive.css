@@ -1,0 +1,288 @@
+/* ======================== ***** ============================= Template Name: 7Soft- One Page Portfolio Template Template URI: https://www.designtocodes.com/product/7Soft-one-page-portfolio-template Description: 7Soft is a One Page Bootstrap template built with a modern design and the latest web technologies. Version: 1.0.1 Author: DesignToCodes Author URI: https://www.designtocodes.com Text Domain: 7Soft */
+
+/* small phone responsive css */
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+    body,
+    .container {
+        overflow-x: hidden;
+    }
+    section {
+        padding: 30px 0px;
+    }
+    .d2c_navbar {
+        padding: 0px;
+    }
+    .d2c_navbar .d2c_btn {
+        margin-top: 10px !important;
+        margin-bottom: 0px !important;
+        padding: 5px 30px 5px !important;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 0px !important;
+    }
+    .navbar-nav .nav-item:first-child {
+        margin-top: 20px;
+    }
+    .navbar-toggler {
+        background: var(--primary_shade);
+        color: var(--primary_color);
+    }
+    .navbar-toggler-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .d2c_title {
+        font-size: 2rem;
+        margin-top: 40px;
+    }
+    .d2c_title .blink {
+        width: 40px;
+        height: 40px;
+        top: 0px !important;
+    }
+    /* header */
+    .d2c_header {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .d2c_hero {
+        padding: 100px 0px !important;
+    }
+    .d2c_hero .d2c_btn {
+        padding: 8px 20px 7px 20px;
+        font-size: 14px;
+    }
+    .d2c_hero_title {
+        font-size: 2.5rem;
+    }
+    .d2c_about .blink,
+    .d2c_counter .blink,
+    .d2c_testimonial .blink,
+    .d2c_footer .blink,
+    .d2c_services .d2c_background_blink {
+        display: none;
+    }
+    .d2c_services .d2c_services_column:first-child {
+        margin-top: 20px;
+    }
+    .d2c_counter {
+        padding: 30px 0px 30px 0px;
+    }
+    .d2c_counter .percent_text {
+        font-size: 20px;
+    }
+    .d2c_counter .circle_percent {
+        font-size: 90px;
+    }
+    .d2c_counter .card {
+        padding-bottom: 20px;
+    }
+    .d2c_beloved_client .blink {
+        display: none;
+    }
+    .d2c_testimonial_wrapper img {
+        margin-top: -95px;
+    }
+    .d2c_testimonial_wrapper {
+        padding: 60px 25px 30px 25px;
+    }
+    .d2c_testimonial .blink {
+        display: none;
+    }
+    .d2c_client_logo_wrapper img {
+        width: 80%;
+    }
+    .d2c_gallery_image_wrapper {
+        height: 300px !important;
+    }
+    .d2c_services,
+    .d2c_about {
+        padding: 15px;
+    }
+    .d2c_contact {
+        padding: 20px 0px;
+    }
+    .d2c_copyright p {
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+    .d2c_footer .d2c_footer_logo {
+        width: 130px;
+    }
+    .d2c_footer i {
+        width: 28px;
+        height: 28px;
+    }
+    .d2c_footer_2 p {
+        margin-bottom: 12px;
+    }
+}
+
+/* Tab responsive css */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    body,
+    .container {
+        overflow-x: hidden;
+    }
+    section {
+        padding: 30px 0px;
+    }
+    .d2c_title {
+        margin-top: 40px;
+    }
+    .d2c_header {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .d2c_navbar {
+        padding: 0px;
+    }
+    .d2c_navbar .d2c_btn {
+        margin-top: 10px !important;
+        margin-bottom: 0px !important;
+        padding: 5px 30px 5px !important;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 0px !important;
+    }
+    .navbar-nav .nav-item:first-child {
+        margin-top: 20px;
+    }
+    .navbar-toggler {
+        background: var(--primary_shade);
+        color: var(--primary_color);
+    }
+    .navbar-toggler-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .d2c_hero {
+        padding: 70px 0px 0px 0px !important;
+    }
+    .d2c_hero_title {
+        font-size: 2rem;
+    }
+    .d2c_hero .d2c_btn {
+        padding: 8px 25px 8px;
+        font-size: 14px;
+    }
+    .d2c_counter .circle_percent {
+        font-size: 95px;
+    }
+    .d2c_counter .percent_text {
+        font-size: 20px;
+    }
+    .d2c_gallery_column {
+        flex: 33.33%;
+        max-width: 33.33%;
+    }
+    .d2c_gallery .d2c_gallery_column:first-child .d2c_gallery_image_wrapper:last-child,
+    .d2c_gallery .d2c_gallery_column:last-child .d2c_gallery_image_wrapper {
+        height: 320px;
+    }
+    .d2c_gallery .d2c_gallery_column:first-child .d2c_gallery_image_wrapper,
+    .d2c_gallery .d2c_gallery_column:last-child .d2c_gallery_image_wrapper:last-child {
+        height: 260px;
+    }
+    .d2c_gallery .d2c_gallery_column:nth-child(2) .d2c_gallery_image_wrapper {
+        height: 290px;
+    }
+    .d2c_gallery_content h4 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .d2c_testimonial_wrapper {
+        padding: 120px 40px 40px 40px;
+    }
+    .d2c_right_blink,
+    .d2c_services .blink,
+    .d2c_beloved_client .blink,
+    .d2c_testimonial .d2c_left_blink,
+    .d2c_counter .blink,
+    .d2c_about .blink,
+    .d2c_hero_main_wrapper .blink,
+    .d2c_footer .blink {
+        display: none;
+    }
+    .d2c_service_card .blink {
+        display: block;
+    }
+    .d2c_contact {
+        padding: 30px 0px;
+    }
+}
+
+/* small laptop responsive css */
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    body,
+    .container {
+        overflow-x: hidden;
+    }
+    section {
+        padding: 60px 0px;
+    }
+    .d2c_hero_title {
+        font-size: 3rem;
+    }
+    .d2c_title {
+        margin-top: 40px;
+    }
+    .d2c_header {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .d2c_title .blink {
+        width: 30px;
+        height: 30px;
+    }
+    .d2c_about .blink,
+    .d2c_beloved_client .blink,
+    .d2c_counter .blink,
+    .d2c_testimonial .blink,
+    .d2c_services .d2c_background_blink,
+    .d2c_footer .blink,
+    .d2c_hero .blink {
+        display: none;
+    }
+    .d2c_counter .circle_percent {
+        font-size: 115px;
+    }
+    .d2c_counter .percent_text {
+        font-size: 25px;
+    }
+    .d2c_testimonial_wrapper {
+        padding: 120px 40px 40px 40px;
+    }
+    .d2c_beloved_header,
+    .d2c_about_header {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1500px) {
+    .d2c_beloved_client .blink,
+    .d2c_about .blink,
+    .d2c_counter .blink,
+    .d2c_services .d2c_background_blink,
+    .d2c_hero .blink {
+        display: none;
+    }
+    .d2c_footer .blink {
+        width: 200px;
+        height: 200px;
+        top: 95%;
+    }
+    .d2c_counter .d2c_counter_right_blink {
+        display: none;
+    }
+}
+
+/* ======================== ***** ============================= Template Name: 7Soft- One Page Portfolio Template Template URI: https://www.designtocodes.com/product/7Soft-one-page-portfolio-template Description: 7Soft is a One Page Bootstrap template built with a modern design and the latest web technologies. Version: 1.0.1 Author: DesignToCodes Author URI: https://www.designtocodes.com Text Domain: 7Soft */
