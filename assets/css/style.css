@@ -11,6 +11,14 @@
     --primary_font: 'Poppins', sans-serif;
 }
 
+.hide {
+    display: none !important;
+}
+
+.delete {
+    display: none !important;
+}
+
 /*Typography -----------------------*/
 
 p {
@@ -476,7 +484,7 @@ body .d2c_mobile_view {
     padding-bottom: 50px;
 }
 
-.d2c_counter .circle_percent {
+.d2c_counter .circle_percent  {
     font-size: 150px;
     width: 1em;
     height: 1em;
