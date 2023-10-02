@@ -2,14 +2,22 @@
 
 :root {
     /* Global Color */
-    --primary_color: #3371F2;
-    --secondary_color: #333333;
-    --text_color: #9B9B9B;
+    --primary_color: #5eab15;
+    --secondary_color: #063e00;
+    --text_color: #0f5c5c;
+    --text_color_light: #a1aeae;
     --default_color_one: #FFFFFF;
-    --primary_shade: #EFF4FF;
+    --primary_shade: #c2dbb9;
+    --blink-shade: #a2e77452;
+    --form-shade: #f7feec;
+    --form-border: #cbdbb2;
     /* global google font */
     --primary_font: 'Poppins', sans-serif;
 }
+
+/* .new {
+    display: none !important;
+} */
 
 .hide {
     display: none !important;
@@ -209,7 +217,7 @@ section {
 /* navbar start */
 
 .d2c_navbar {
-    background: rgb(245 249 255 / 70%);
+    background: rgb(245 255 247 / 70%);
     backdrop-filter: blur(70px);
     padding: 10px 0px;
 }
@@ -326,7 +334,7 @@ body .d2c_mobile_view {
     width: 200px;
     height: 200px;
     position: absolute;
-    background: #7499e752;
+    background: var(--blink-shade);
     left: 50%;
     transform: translate(-50%, -50%);
     top: 130px;
@@ -436,7 +444,7 @@ body .d2c_mobile_view {
 }
 
 .d2c_service_card {
-    background: #ECF2FE;
+    background: var(--form-shade);
     padding: 90px 30px 70px 30px;
     position: relative;
     height: 100%;
@@ -461,7 +469,7 @@ body .d2c_mobile_view {
 
 .d2c_service_card .blink::before,
 .d2c_service_card .blink::after {
-    background: #cad6f0;
+    background: hsl(107, 56%, 87%);
 }
 
 .d2c_services .d2c_services_column:first-child {
@@ -564,7 +572,7 @@ body .d2c_mobile_view {
     height: 140px;
     top: 200px;
     left: 10%;
-    background: #7499e71a;
+    background: var(--blink-shade);
 }
 
 .d2c_counter .d2c_counter_right_blink {
@@ -572,7 +580,7 @@ body .d2c_mobile_view {
     height: 80px;
     top: unset;
     left: unset;
-    background: #7499e71a;
+    background: var(--blink-shade);
     bottom: 80px;
     right: 100px;
 }
@@ -751,7 +759,7 @@ body .d2c_mobile_view {
     height: 70px;
     top: unset;
     bottom: -65px;
-    background: #7499e714;
+    background: var(--blink-shade);
 }
 
 /* ==========testimonial section end========== */
@@ -795,19 +803,19 @@ body .d2c_mobile_view {
 }
 
 .form-control {
-    background: #ECF2FE;
-    border: 1px solid #A0BCF8;
+    background: var(--form-shade);
+    border: 1px solid var(--form-border);
     border-radius: 4px;
     padding: 25px 20px;
     font-family: var(--primary_font);
     font-weight: 400;
     font-size: 14px;
-    color: #A1BEF9;
+    color: var(--text_color_light);
 }
 
 .form-control:focus {
     box-shadow: none;
-    background: #ECF2FE;
+    background: #eff8e1;
 }
 
 .d2c_contact form p {
@@ -821,19 +829,19 @@ body .d2c_mobile_view {
 }
 
 .d2c_contact .d2c_subject label {
-    color: #A1BEF9 !important;
+    color: var(--text_color) !important;
     font-size: 16px;
 }
 
 .form-control::placeholder {
-    color: #A1BEF9;
+    color: var(--text_color);
 }
 
 input[type="radio"] {
     appearance: none;
     width: 15px;
     height: 15px;
-    border: 2px solid #A1BEF9;
+    border: 2px solid var(--secondary_color);
     border-radius: 50%;
     background-clip: content-box;
     padding: 2px;
@@ -935,7 +943,7 @@ input[type="radio"]:checked {
     height: 330px;
     top: 85%;
     left: 0;
-    background: #7499e72b;
+    background: var(--blink-shade);
     z-index: -1;
 }
 
