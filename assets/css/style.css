@@ -975,7 +975,7 @@ input[type="radio"]:checked {
 }
 
 .d2c_footer_3 .d2c_btn:hover {
-    background: #3371f2e0;
+    background: var(--primary_shade);
     transition: .4s all ease;
 }
 
