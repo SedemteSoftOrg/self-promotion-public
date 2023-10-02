@@ -492,6 +492,47 @@ body .d2c_mobile_view {
     padding-bottom: 50px;
 }
 
+.d2c_counter .circle_icon_outer {
+    font-size: 17px;
+    width: 8em;
+    height: 8em;
+    background: #b6de7c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.d2c_counter .circle_icon {
+    font-size: 17px;
+    width: 6em;
+    height: 6em;
+    background: var(--primary_color);
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.d2c_counter .circle_icon_inner {
+    font-size: 17px;
+    width: 7em;
+    height: 7em;
+    background: var(--primary_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: .3s all ease;
+}
+
+.d2c_counter .circle_icon_inner:hover {
+    width: 8em;
+    height: 8em;
+    background: var(--primary_color);
+    transition: .3s all ease;
+}
+
 .d2c_counter .circle_percent  {
     font-size: 150px;
     width: 1em;
