@@ -50,7 +50,7 @@ h6 {
 }
 
 h1 {
-    font-size: 3.625rem;
+    font-size: 1.6rem;
 }
 
 h2 {
@@ -111,7 +111,6 @@ button,
 select,
 input,
 label {
-    cursor: pointer;
     transition: 0.4s all;
 }
 
@@ -406,7 +405,7 @@ body .d2c_mobile_view {
 }
 
 .d2c_hero_title label {
-    font-weight: 300;
+    font-weight: 600;
     color: var(--primary_color);
     text-transform: uppercase;
 }
@@ -892,6 +891,10 @@ input[type="radio"]:checked {
     background-color: var(--primary_color);
     width: 15px;
     height: 15px;
+}
+
+.form-check-label {
+  cursor: pointer;
 }
 
 /* ==========contact section end========== */
