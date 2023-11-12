@@ -47,25 +47,6 @@ $(window).on("load", function() {
         document.body.scrollTop = 0, document.documentElement.scrollTop = 0
     })
 }), $(document).ready(function() {
-    $(".circle_percent").each(function() {
-        var a = $(this),
-            t = a.data("percent"),
-            e = 3.6 * t,
-            o = a.find(".round_per");
-        o.css("transform", "rotate(" + parseInt(e + 180) + "deg)"), a.append('<div class="circle_inbox"><span class="percent_text"></span></div>'), a.prop("Counter", 0).animate({
-            Counter: t
-        }, {
-            duration: 2e3,
-            easing: "swing",
-            step: function(t) {
-                a.find(".percent_text").text(Math.ceil(t) + "%")
-            }
-        }), t >= 51 && (o.css("transform", "rotate(360deg)"), setTimeout(function() {
-            a.addClass("percent_more")
-        }, 1e3), setTimeout(function() {
-            o.css("transform", "rotate(" + parseInt(e + 180) + "deg)")
-        }, 1e3))
-    })
 }), navbar_toggler(), navClone(), window.addEventListener("load", function() {
     var a = document.getElementsByClassName("form_validation");
     Array.prototype.filter.call(a, function(a) {
