@@ -60,7 +60,6 @@
     }
     .d2c_about .blink,
     .d2c_counter .blink,
-    .d2c_testimonial .blink,
     .d2c_footer .blink,
     .d2c_services .d2c_background_blink {
         display: none;
@@ -79,24 +78,6 @@
     }
     .d2c_counter .card {
         padding-bottom: 20px;
-    }
-    .d2c_beloved_client .blink {
-        display: none;
-    }
-    .d2c_testimonial_wrapper img {
-        margin-top: -95px;
-    }
-    .d2c_testimonial_wrapper {
-        padding: 60px 25px 30px 25px;
-    }
-    .d2c_testimonial .blink {
-        display: none;
-    }
-    .d2c_client_logo_wrapper img {
-        width: 80%;
-    }
-    .d2c_gallery_image_wrapper {
-        height: 300px !important;
     }
     .d2c_services,
     .d2c_about {
@@ -172,38 +153,8 @@
         padding: 8px 25px 8px;
         font-size: 14px;
     }
-    .d2c_counter .circle_percent {
-        font-size: 95px;
-    }
-    .d2c_counter .percent_text {
-        font-size: 20px;
-    }
-    .d2c_gallery_column {
-        flex: 33.33%;
-        max-width: 33.33%;
-    }
-    .d2c_gallery .d2c_gallery_column:first-child .d2c_gallery_image_wrapper:last-child,
-    .d2c_gallery .d2c_gallery_column:last-child .d2c_gallery_image_wrapper {
-        height: 320px;
-    }
-    .d2c_gallery .d2c_gallery_column:first-child .d2c_gallery_image_wrapper,
-    .d2c_gallery .d2c_gallery_column:last-child .d2c_gallery_image_wrapper:last-child {
-        height: 260px;
-    }
-    .d2c_gallery .d2c_gallery_column:nth-child(2) .d2c_gallery_image_wrapper {
-        height: 290px;
-    }
-    .d2c_gallery_content h4 {
-        font-size: 1rem;
-        margin-bottom: 10px;
-    }
-    .d2c_testimonial_wrapper {
-        padding: 120px 40px 40px 40px;
-    }
     .d2c_right_blink,
     .d2c_services .blink,
-    .d2c_beloved_client .blink,
-    .d2c_testimonial .d2c_left_blink,
     .d2c_counter .blink,
     .d2c_about .blink,
     .d2c_hero_main_wrapper .blink,
@@ -244,31 +195,17 @@
         height: 30px;
     }
     .d2c_about .blink,
-    .d2c_beloved_client .blink,
-    .d2c_counter .blink,
-    .d2c_testimonial .blink,
     .d2c_services .d2c_background_blink,
     .d2c_footer .blink,
     .d2c_hero .blink {
         display: none;
     }
-    .d2c_counter .circle_percent {
-        font-size: 115px;
-    }
-    .d2c_counter .percent_text {
-        font-size: 25px;
-    }
-    .d2c_testimonial_wrapper {
-        padding: 120px 40px 40px 40px;
-    }
-    .d2c_beloved_header,
     .d2c_about_header {
         width: 100%;
     }
 }
 
 @media only screen and (min-width:1200px) and (max-width:1500px) {
-    .d2c_beloved_client .blink,
     .d2c_about .blink,
     .d2c_counter .blink,
     .d2c_services .d2c_background_blink,
