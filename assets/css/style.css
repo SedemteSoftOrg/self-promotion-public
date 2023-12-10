@@ -1,5 +1,3 @@
-/* ======================== ***** ============================= Template Name: 7Soft- One Page Portfolio Template Template URI: https://www.designtocodes.com/product/7Soft-one-page-portfolio-template Description: 7Soft is a One Page Bootstrap template built with a modern design and the latest web technologies. Version: 1.0.1 Author: DesignToCodes Author URI: https://www.designtocodes.com Text Domain: 7Soft */
-
 :root {
     /* Global Color */
     --primary_color: #5eab15;
@@ -13,9 +11,6 @@
     --form-border: #cbdbb2;
     /* global google font */
     --primary_font: 'Poppins', sans-serif;
-}
-.hide {
-    display: none !important;
 }
 
 /*Typography -----------------------*/
@@ -736,5 +731,3 @@ input[type="radio"]:checked {
 }
 
 /* ========================== bottom to top scroll end ============================ */
-
-/* ======================== ***** ============================= Template Name: 7Soft- One Page Portfolio Template Template URI: https://www.designtocodes.com/product/7Soft-one-page-portfolio-template Description: 7Soft is a One Page Bootstrap template built with a modern design and the latest web technologies. Version: 1.0.1 Author: DesignToCodes Author URI: https://www.designtocodes.com Text Domain: 7Soft */
